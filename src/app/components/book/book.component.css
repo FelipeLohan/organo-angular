@@ -1,6 +1,6 @@
 section {
-  width: 262px;
-  min-height: 382px;
+  width: 18%;
+  min-height: 375px;
   margin: 8px;
   display: flex;
   flex-direction: column;
@@ -11,10 +11,10 @@ section {
   overflow: hidden;
   padding-top: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin-left: 64px;
+  margin-left: 5%;
 }
 
-section .info-livro {
+section .info-book {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,11 +22,11 @@ section .info-livro {
   overflow: hidden;
 }
 
-section .info-livro > * {
-  margin: 8px;
+section .info-book > * {
+  margin: 5%;
 }
 
-.texto-h2 {
+.title-book {
   font-family: var(--font-montserrat);
   font-size: 20px;
   font-weight: var(--font-weight-bold);
@@ -35,7 +35,7 @@ section .info-livro > * {
   max-width: 90%;
 }
 
-.texto-h3 {
+.author-book {
   font-family: var(--font-montserrat);
   font-size: 16px;
   font-weight: var(--font-weight-normal);
