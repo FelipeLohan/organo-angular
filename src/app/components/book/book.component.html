@@ -1,4 +1,8 @@
 <section>
+  <button class="favorite-btn" (click)="handleFavorite()">
+      <span>{{ book.isFavorite ? '\u2764' : '\u2661' }}</span>
+  </button>
+
   <div class="book-image">
     <img [src]="book.imageUrl" [alt]="book.title">
   </div>
